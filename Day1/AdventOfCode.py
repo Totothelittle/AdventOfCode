@@ -23,9 +23,9 @@ def find_similarities(l1, l2):
 if __name__ == "__main__":
     day = 1
 
-    small_filename = f"Advent of Code 2024/Day{day}/Test{day}.in"
-    big_filename = f"Advent of Code 2024/Day{day}/Day{day}.in"
-    gold_filename = f"Advent of Code 2024/Day{day}/Day{day}_gold.in"
+    small_filename = f"Advent of Code 2024/Day{day}/Test.in"
+    big_filename = f"Advent of Code 2024/Day{day}/Input.in"
+    gold_filename = f"Advent of Code 2024/Day{day}/GoldInput.in"
     
     l1, l2 = parse_input(big_filename)
     res = sort_lists(l1, l2)
