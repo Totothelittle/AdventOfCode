@@ -187,3 +187,4 @@ if __name__ == "__main__":
 
     res2 = guard_loop(guard_map_loop)
     print(res2)
+    # Must find 1939
